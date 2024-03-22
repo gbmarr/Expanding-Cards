@@ -7,9 +7,9 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    background-color: var(--ghost-white);
+    background-color: var(--eerie-black);
     font: 24px 'Titillium Web', sans-serif;
-    color: var(--eerie-black);
+    color: var(--ghost-white);
 }
 
 .main_container {
@@ -36,7 +36,7 @@
 }
 
 .active > .panel_title {
-    background-color: rgba(250, 250, 255, .6);
+    background-color: rgb(28, 29, 33);
     transform: translate(-50%, -50%);
     padding: .2em;
     width: fit-content;
